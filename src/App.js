@@ -10,11 +10,13 @@ import 'react-bootstrap/dist/react-bootstrap.min.js'
 import './App.css';
 
 import Navegacion from './componentes/navegacion'
-import listaEstadistica from './componentes/listaEstadistica'
+//import listaEstadistica from './componentes/listaEstadistica'
 import landingFutbol from './componentes/landingFutbol'
 import crearUsuario from './componentes/crearUsuario'
-import crearEstadistica from './componentes/crearEstadistica'
-import Landingpage from './componentes/landingFutbol';
+import datosJugador from './componentes/datosJugador'
+import Login from './componentes/login'
+import Jugadores from './componentes/jugadores'
+
 
 
 function App() {
@@ -25,11 +27,13 @@ function App() {
          
        
         <div className="container p-4">
-<Landingpage/>
-           <Route path="/landingFutbol" component={landingFutbol}/> 
-          <Route path="/crearEstad" component={crearEstadistica}/>
+
+           <Route path="/" component={landingFutbol} exact/> 
+          <Route path="/datosJugador" component={datosJugador}/>
           <Route path="/crearusuario" component={crearUsuario}/>
-          <Route path="/listaEstadistica" component={listaEstadistica}/>
+          {/* <Route path="/listaEstadistica" component={listaEstadistica}/> */}
+          <Route path="/Login" component={Login}/>
+          <Route path="/Jugadores" component={Jugadores}/>
         </div>
 
       </Router>

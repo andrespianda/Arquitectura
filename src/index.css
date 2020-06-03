@@ -10,8 +10,8 @@ body{
 
 
     background-image: url(assets/image/fondo_cesped.jpg);
-    background-size:  50%;
-    
+   background-size:  cover ;
+    background-attachment: fixed;
 } 
 
 /*autor de iconos Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
