@@ -47,13 +47,7 @@ export default class datosJugador extends Component {
     onChangeusuario = e =>{
        this.setState({
             [e.target.name]: e.target.value
-            // usuario: e.target.value,
-            // numIdentif: e.target.value,
-            // nomUsuario1: e.target.value,
-            // nomUsuario2: e.target.value,
-            // Apellido1: e.target.value,
-            // Apellido2: e.target.value,
-            // pass: e.target.value
+
 
         })
         //console.log(e.target.value)

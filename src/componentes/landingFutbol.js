@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-//import Jumbotron  from 'react-bootstrap/Jumbotron'
-//import Button  from 'react-bootstrap/Button'
+
 import '../assets/css/css.css'
 import '../index.css'
 import '../assets/css/my_Style.css'
@@ -90,40 +89,40 @@ export default class Landingpage extends Component {
                     </div>
 
 
-<div style={{marginTop:'30px', textAlign: 'center'}}>
-                    <h3 style={{fontSize: '20px', color: 'white', fontWeight: 'bold' }}> INFORMACION DE INTERES</h3>
-                    <div className="d-flex justify-content-between" style={{marginTop:'30px'}}>
+                    <div style={{ marginTop: '30px', textAlign: 'center' }}>
+                        <h3 style={{ fontSize: '20px', color: 'white', fontWeight: 'bold' }}> INFORMACION DE INTERES</h3>
+                        <div className="d-flex justify-content-between" style={{ marginTop: '30px' }}>
 
-                       
 
-                        <div className="card" style={{width:"18rem", height: '22rem'}}>
-                            <img src={estadio} className="card-img-top" alt="..." style={{width:"10rem", height: '10rem' ,margin: 'auto'}} />
-                            <div className="card-body">
-                                <h5 className="card-title">ESTADIOS</h5>
-                                <p className="card-text">Aqui encontrará los stadios del Mundo</p>
-                                <Link to ='#' className="btn btn-success">Mas informacion >></Link>
+
+                            <div className="card" style={{ width: "18rem", height: '22rem' }}>
+                                <img src={estadio} className="card-img-top" alt="..." style={{ width: "10rem", height: '10rem', margin: 'auto' }} />
+                                <div className="card-body">
+                                    <h5 className="card-title">ESTADIOS</h5>
+                                    <p className="card-text">Aqui encontrará los stadios del Mundo</p>
+                                    <Link to='#' className="btn btn-success">Mas informacion >></Link>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="card" style={{width:"18rem", height: '22rem'}}>
-                            <img src={jugador} className="card-img-top" alt="..."  style={{width:"10rem", height: '10rem', margin: 'auto'}} />
-                            <div className="card-body">
-                                <h5 className="card-title">Ranking Jugadores</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <Link to ='#' className="btn btn-success">Mas informacion >></Link>
+                            <div className="card" style={{ width: "18rem", height: '22rem' }}>
+                                <img src={jugador} className="card-img-top" alt="..." style={{ width: "10rem", height: '10rem', margin: 'auto' }} />
+                                <div className="card-body">
+                                    <h5 className="card-title">Ranking Jugadores</h5>
+                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <Link to='#' className="btn btn-success">Mas informacion >></Link>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="card" style={{width:"18rem", height: '22rem'}}>
-                            <img src={jugador2} className="card-img-top" alt="..." style={{width:"10rem", height: '10rem', margin: 'auto'}}  />
-                            <div className="card-body">
-                                <h5 className="card-title">Goles Jugadores</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <Link to ='#' className="btn btn-success">Mas informacion >></Link>
+                            <div className="card" style={{ width: "18rem", height: '22rem' }}>
+                                <img src={jugador2} className="card-img-top" alt="..." style={{ width: "10rem", height: '10rem', margin: 'auto' }} />
+                                <div className="card-body">
+                                    <h5 className="card-title">Goles Jugadores</h5>
+                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <Link to='#' className="btn btn-success">Mas informacion >></Link>
+                                </div>
                             </div>
-                        </div>
 
-                    </div>
+                        </div>
 
                     </div>
                 </div>

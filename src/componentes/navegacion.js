@@ -40,8 +40,7 @@ export default class navegacion extends Component {
                  
                   </div>  
                   <Form inline>
-                        {/* <FormControl type="text" placeholder="Busqueda" className="mr-sm-2" />
-                        <Button variant="outline-success">Buscar</Button> */}
+                    
                          <Button 
                          variant="outline-secondary"
                          href="/Login"

@@ -2,11 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'react-bootstrap/dist/react-bootstrap.min.js'
-//import './src/assets/js/script.js'
-//import './src/assets/css/css.css'
-//import 'jquery/dist/jquery.js'
-//import 'bootstrap/dist/js/bootstrap.min.js'
-//import 'jquery/dist/jquery.js'
+
 import './App.css';
 
 import Navegacion from './componentes/navegacion'
@@ -16,6 +12,7 @@ import crearUsuario from './componentes/crearUsuario'
 import datosJugador from './componentes/datosJugador'
 import Login from './componentes/login'
 import Jugadores from './componentes/jugadores'
+import Estadios from './componentes/Estadios'
 
 
 
@@ -34,6 +31,7 @@ function App() {
           {/* <Route path="/listaEstadistica" component={listaEstadistica}/> */}
           <Route path="/Login" component={Login}/>
           <Route path="/Jugadores" component={Jugadores}/>
+          <Route path="/Estadios" component={Estadios}/>
         </div>
 
       </Router>

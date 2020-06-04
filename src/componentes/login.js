@@ -1,7 +1,4 @@
-//import Form from 'react-bootstrap/Form'
 import React, { Component } from 'react'
-//import { Button} from 'react-bootstrap'
-//import Card from 'react-bootstrap/Card'
 import Mujer from '../assets/image/Fut_Mujer.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
